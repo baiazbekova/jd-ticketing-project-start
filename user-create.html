@@ -133,7 +133,7 @@
                             <div id="submenu-2" class="collapse submenu" style="">
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="user-create.html.html"
+                                        <a class="nav-link" href="user-create.html"
                                         >User Create</a>
                                     </li>
                                     <li class="nav-item">
@@ -279,18 +279,127 @@
                                         </div>
                                     </div>
                                 </div>
+
+
+                                <div class = "row">
+                                    <div class = "col-sm-6 col-md-6">
+                                        <div class="form-group">
+                                            <label>Gender</label><br>
+                                            <label class="custom-control custom-radio custom-control-inline">
+                                                <input type="radio" name="radio-inline" checked="" class="custom-control-input"><span class="custom-control-label">Female</span>
+                                            </label>
+                                            <label class="custom-control custom-radio custom-control-inline">
+                                                <input type="radio" name="radio-inline" class="custom-control-input"><span class="custom-control-label">Male</span>
+                                            </label>
+
+                                        </div>
+                                    </div>
+                                    <div class = "col-sm-6 col-md-6">
+                                        <div class="form-group">
+                                            <label>Choose a Role </label>
+                                            <select name ="roleid" id="rolei_d" class = "custom-select" required="required">
+                                                <option value = "select" selected = "selected">Select</option>
+                                                <option value = "admin">Admin</option>
+                                                <option value = "manager">Manager</option>
+                                                <option value = "employee">Employee</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class = "row">
+                                    <div class="col-sm-6 col-md-6 col-lg-12">
+                                        <div class = "float-right">
+                                            <button type="button" class="btn btn-success">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </form>
                 </div>
             </div>
-        </div>
+
+<!--table -->
+            <div class = "col-sm-12 col-md-12 col-lg-12">
+                <div class="row">
+                        <div class="page-header" id="table">
+                            <h2 class="pageheader-title">User List </h2>
+                        </div>
+                    </div>
+                </div>
+
+                 <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Gender</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col">Role</th>
+                                    <th scope="col">Action</th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Aigerim</td>
+                                    <td>baiazbekova@gmail.com</td>
+                                    <td>female</td>
+                                    <td>9295413083</td>
+                                    <td>Admin</td>
+                                    <td class = "actions">
+                                        <a href =""><button type = "button" class = "btn btn-warning btn-sm">Update</button></a>
+                                        <a href ="" class = "delete-row"><button type = "button" class = "btn btn-secondary btn-sm">Delete</button></a>
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>Mederbek</td>
+                                    <td>md.mederbek@gmail.com</td>
+                                    <td>male</td>
+                                    <td>9295413087</td>
+                                    <td>Manager</td>
+                                    <td class = "actions">
+                                        <a href =""><button type = "button" class = "btn btn-warning btn-sm">Update</button></a>
+                                        <a href ="" class = "delete-row"><button type = "button" class = "btn btn-secondary btn-sm">Delete</button></a>
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>Bermet</td>
+                                    <td>baiazbekova@gmail.com</td>
+                                    <td>female</td>
+                                    <td>9295413081</td>
+                                    <td>Employee</td>
+                                    <td class = "actions">
+                                        <a href =""><button type = "button" class = "btn btn-warning btn-sm">Update</button></a>
+                                        <a href ="" class = "delete-row"><button type = "button" class = "btn btn-secondary btn-sm">Delete</button></a>
+                                    </td>
+
+                                </tr>
+
+                                </tbody>
+                            </table>
+
+                        <!--footer-->
+
+                        <footer class = "page-footer font-small blue fixed-bottom">
+                            <div class = "footer-copyright text-center py-3">@2020 Aigerim Baiazbekova - All Rights Reserved</div>
+                        </footer>
+                        </div>
+                    </div>
+                </div>
+
+
         <!-- ============================================================== -->
 
         <!-- ============================================================== -->
-    </div>
+
     <!-- ============================================================== -->
     <!-- end wrapper  -->
     <!-- ============================================================== -->
-</div>
+
 <!-- ============================================================== -->
 <!-- end main wrapper  -->
 <!-- ============================================================== -->
